@@ -18,10 +18,11 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 2em;
 }
 
 .brand span {
-    color: aqua;
+    color: gold;
 }
 
 .menu {
@@ -37,4 +38,14 @@ body {
 .menu a {
     color: aliceblue;
     text-decoration: none;
+}
+
+.menu .active {
+    color: gold;
+}
+
+.menu a:hover {
+    background-color: gold;
+    color: black;
+    transition: ease-in;
 }
