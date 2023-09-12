@@ -49,3 +49,12 @@ body {
     color: black;
     transition: ease-in;
 }
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1rf);
+ }
+
