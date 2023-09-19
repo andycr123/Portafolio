@@ -16,7 +16,7 @@ html {
 }
 
 #inicio {
-    background-color: black;
+    background-color: black, url("./img/codificacion-programas-informaticos-pantalla.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
