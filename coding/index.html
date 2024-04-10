@@ -1,79 +1,78 @@
-<!DOCTYPE html>
-<html lang="en-es">
-<head>
+<! DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Titulo por si no sabes ingles motherfucker-->
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Web</title>
     <link rel="stylesheet" href="./styles.css">
-    <!--Icono de la pagina osea lo que va de lado del titulo :v -->
-    <link rel="shortcut-icon" href="">
-</head>
-<body>
-    <!--Seccion de inico-->
-    <section class="inico"> 
-        <!--contenido de la navbar-->
-        <div class="contenido">
-            <header>
-                <div class="contenido-header">
-                    <h1>AC</h1>
-                    <nav id="nav" class="">
-                        <ul id="links">
-
-                            <li>
-                                <a href="#inicio" class="seleccionado">INICIO</a>
-                            </li>
-
-                            <li>
-                                <a href="#sobremi">SOBRE MI</a>
-                            </li>
-
-                            <li>
-                                <a href="#servicios">SERVICIOS</a>
-                            </li>
-
-                            <li>
-                                <a href="#portafolio">PORTAFOLIO</a>
-                            </li>   
-
-                            <li>
-                                <a href="#contacto">CONTACTO</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <!--Iconos del  menu responsive-->
-                    <div id="icono-nav">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-
-                    <!---Iconos  de las redes sociales--->
-                    <div class="redes">
-                        <a href="#">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-
-                        <a href="#">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a> 
-                    </div>
-                </div>
-            </header>
-
-            <div class="presentacion">
-                <p class="bienvenida">Bienvenidos a todos</p>
-                <h2>Soy <span>Andy</span>, soy Desarrollador Web </h2>
-                <p class="descripcion"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi nostrum culpa hic maxime sapiente laudantium optio veritatis qui maiores. Nulla corrupti, nemo quidem alias eius architecto necessitatibus cupiditate eaque voluptatum!</p>
-                <a href="#portafolio">Ir a Portafolio</a>
-            </div>
-
+    <link rel="shortcut icon" href="/img/icons8-portafolio-32.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="brand">
+            <h2>STEAM<span>ACADEMY</span></h2>
+          </div>
+          <ul class="menu">
+            <li><a href="#" class="active">Inicio</a></li>
+            <li><a href="#">Quien Soy</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+   
+      <main class="main">
+        <div class="info-content">
+          <h1>I'm <span>Andy</span> C</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt facilis minima eveniet accusamus rem sint doloribus quia eligendi expedita optio, dolore quo ipsa atque. Expedita doloremque deleniti alias iste quia?</p>
+          <a download href="https://www.linkedin.com/in/andr%C3%A9s-candama-7b641a242/" target="_blank"><button class="download-cv">Download CV</button></a>
         </div>
-    </section>
-
+        <img src="/img/Andres-Candama.webp" alt="">
+      </main>
+   
+      <div class="about">
+        <img src="" alt="">
+        
+<div class="about-info">
+          <h2>About me</h2>
+          <div class="divider"></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id cumque asperiores fugit, quis repudiandae accusamus quisquam modi numquam laudantium fugiat enim eum pariatur amet illum recusandae debitis reprehenderit sed?</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id cumque asperiores fugit, quis repudiandae accusamus quisquam modi numquam laudantium fugiat enim eum pariatur amet illum recusandae debitis reprehenderit sed?</p>
+          <button class="download-cv">Read more</button>
+        </div>
+      </div>
+   
+      <div class="portfolio">
+        <div class="portfolio-heading">
+          <h2>Mi Portafolio</h2>
+          <div class="divider"></div>
+        </div>
+   
+        <div class="container">
+          <div class="card">
+            <div class="card__img"></div>
+            <div class="card__title">
+              <h2>Project Description</h2>
+            </div>
+            <div class="card__proyect-links">
+              <a href="https://github.com/andycr123" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/bandit.ofdepresion/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/andycm_cr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="#">Project Details</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
 </body>
 </html>
+
